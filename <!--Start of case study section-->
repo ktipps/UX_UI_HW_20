@@ -1,0 +1,34 @@
+<!--Start of case study section-->
+<section class="case-studies">
+    <!-- Flock-->
+   <div class="flock-case">
+       <h3>Reimagining group travel: Flock</h3>
+       <p>At times, group travel can feel nearly impossible. Multiple schedules, locations and personalities often leave planners frustrated and overwhelmed by details. <br> Flock is designed to help.</p>
+       <button class="view-the-case-study">View the Case Study</button>
+   </div>
+     <!--BCG-->
+   <div class="bcg-case">
+       <h3>Bringing a non-profit's voice forward</h3>
+       <p>Black Girls CODE has a great mission, but their original online presence made it difficult for donors and volunteers to get involved. <br> Together, our team imagined a new start.</p>
+       <button class="view-the-case-study">View the Case Study</button>
+   </div>
+     <!--Mentor Match-->
+   <div>
+       <h3>Connecting professionals to life-long mentors</h3>
+       <p>Having a good mentor is one of the biggest keys to professional success, but a good mentor is also hard to find. <br> Mentor Match redefines the professional mentor search experience, making it faster, easier and more fun to meet the right mentor or mentee.</p>
+       <button class="view-the-case-study">View the Case Study</button>
+   </div>
+
+</section>
+<!--Start of the Contact Me Bird-->
+<section>
+   <div class="footer-bird">
+    <img src="Images/footerbird.png">
+    <h3>Interested in starting a new project?</h3>
+    <button class="lets-talk">Let's Talk</button>
+   </div>
+</section>
+<!--Start of the footer-->
+<footer>
+   <p>© Kara Tippins, 2020</p>
+</footer>

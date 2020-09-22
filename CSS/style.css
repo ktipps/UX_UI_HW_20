@@ -1,0 +1,408 @@
+/* Navigation */
+.menu li{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+display: inline-block;
+width: 73%;
+padding: 1%;
+}
+
+ul{
+    width: 50%;
+}
+
+.nav-bar-link{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-link:hover{
+    font-weight: 600;
+    text-decoration-line: underline;
+    }
+
+.kara-tippins-home{
+    color: black; 
+    font-family: playfair display; 
+    right: 500px; 
+    font-size: 20px; 
+    text-decoration: none; 
+    }
+
+.kara-tippins-home:hover{
+    color: black; 
+    font-family: playfair display; 
+    right: 500px; 
+    font-size: 20px; 
+    text-decoration: underline; 
+}
+/* Change in nav text color when you are on that page */
+
+.on-that-page{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #B54600;
+}
+
+/* Home page link for subsidary pages */
+
+.kara-home-page-link{
+    display: inline-block;
+    font-weight: 300; 
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.kara-home-page-link:hover{
+    text-decoration: underline; 
+}
+
+/* Hand images + UX designer, story teller, writer text */
+
+.karahand{
+    display: inline-block;
+    position: relative; 
+    padding: 5px;
+}
+
+.karahand img{
+    height: auto;
+    width: 100%;
+}
+
+.text h2{
+    position: absolute;
+    font-family:'Work Sans', sans-serif;
+    font-size: 30px;
+    top: 290px;
+    line-height: 60px;
+    padding: 50px;
+    font-weight: 300; 
+}
+
+.mywork2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    height: 1%;
+    width: 1%;
+}
+
+/* Grid area for the case studies */
+
+.case-studies{
+    padding: 50px; 
+    display: grid;
+    grid-gap: 8%;
+    grid-template-areas:
+    'flock-case'
+    'bgc-case'
+    'mentor-match-case';
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr; 
+}
+
+/* Flock case study */
+.flock-case{
+    grid-area: flock-case;
+}
+
+.flock-case-details{
+    grid-area: flock-case-details; 
+}
+
+.flock-image{
+    height: auto;
+    width: 100%;
+}
+
+/* Black Girls Code case study */
+.bgc-case{
+    grid-area: bgc-case; 
+}
+
+.bgc-image{
+    height: auto;
+    width: 100%;
+}
+
+.bgc-case-details{
+    grid-area: bgc-case-details;
+}
+
+.mentor-match-case{
+    grid-area: mentor-match-case;
+
+}
+
+/* Mentor Match case study */
+.mentor-match-image{
+    height: auto;
+    width: 100%;
+}
+
+.mentor-match-case-details{
+    grid-area: mentor-match-case-details;
+}
+
+.case-studies{
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 30px;
+}
+
+/* View case study button */
+
+.view-the-case-study{
+    background-color:#FFF;
+    border:none;
+    color: #B54600;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 0px 0 0 0px; 
+    padding: 20px; 
+
+}
+
+.view-the-case-study:hover{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+/* About Me Page*/
+
+.flex-container{
+    padding: 50px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+}
+
+/* About me header and hero image area */
+
+.a-bit-about-me{
+    font-size: 60px; 
+}
+.ethos-blurb{
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 300; 
+}
+
+.kara-headshot{
+   height: 400px;
+   Width: auto;
+   margin: 0px 0 0 125px;
+}
+
+/* About me main content area */
+
+.about-me-body-text{
+    margin-left: 50px; 
+}
+
+.about-me-work-button{
+    margin: 20px 0 55px 685px; 
+}
+
+.kara-about-me-pics{
+    height: 350px;
+    Width: auto;
+    margin: 45px 100px 45px 600px; 
+}
+
+
+/* Resume Page */
+
+.resume{
+    padding: 50px; 
+    height: auto; 
+    Width: 70%;
+    display: inline-block;
+    position: relative; 
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+/* Contact Page */
+.form1{
+    width: 75%;
+}
+.form-group{
+    font-family: 'Work Sans', sans-serif; 
+    margin-left: 50px; 
+}
+
+.contact-me-header{
+    width: auto; 
+    height: 300px; 
+}
+
+.btn-primary{
+    background-color:#FFF;
+    border:none;
+    font-family:'Work Sans', sans-serif; 
+    color: #B54600;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 0px 0 0 0px; 
+    padding: 50px; 
+}
+
+.btn-primary:hover{
+    background-color:#FFF;
+    border:none;
+    font-family:'Work Sans', sans-serif; 
+    color: #B54600;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 0px 0 0 0px; 
+    padding: 50px; 
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#talk-soon-confirmation{
+    display: none; 
+}
+/* Footer bird area */
+
+.footer-bird{
+    display: inline-block;
+    position: relative; 
+    margin-left: 150px;
+    margin-right: auto;
+    height: auto;
+    width: 1200px;
+}
+
+.starting_project{
+    position: absolute;
+    font-family:'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    top: 255px;
+    left: 320px;
+    line-height: 80px;
+    padding: 90px;
+}
+
+
+/* Let's talk button */
+
+.lets-talk{
+    position: absolute; 
+    font-family:'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #B54600;
+    background-color: #FFF;
+    border: none;
+    font-size: 35px;
+    top: 490px;
+    left: 630px;
+
+}
+
+.lets-talk:hover{
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+/* Copyright footer area*/
+
+footer{
+    display: block;
+    position: relative; 
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Work Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Responsive design - media queries */
+
+@media all and (max-width: 1205px){
+
+    .text h2{
+        position: absolute;
+        font-family:'Work Sans', sans-serif;
+        font-size: 30px;
+        top: 350px;
+        line-height: 60px;
+        padding: 50px;
+        font-weight: 300; 
+    }
+
+    .menu li{
+        display: block;
+        padding: 20px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav{
+    display: block;
+    width: 73%;
+    padding: 1%;
+    }
+
+    ul{
+    width: 50%;
+    }
+
+    .case-studies{
+        display: flex;
+        flex-direction: column;
+    }
+   
+.flock-image{
+     height: auto;
+     width: 60%;
+     margin-top: 20px; 
+     
+}
+
+.bgc-image{
+    height: auto;
+    width: 60%;
+}
+
+
+.mentor-match-image{
+    height: auto;
+    width: 60%;
+}
+
+#case-study-link-responsive{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+}
+
