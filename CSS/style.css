@@ -68,7 +68,7 @@ ul{
     text-decoration: underline; 
 }
 
-/* Hand images + UX designer, story teller, writer text */
+/* Homepage - Hand images + UX designer, story teller, writer text */
 
 .karahand{
     display: inline-block;
@@ -100,7 +100,7 @@ ul{
     width: 1%;
 }
 
-/* Grid area for the case studies */
+/* Home page - Grid area for the case studies */
 
 .case-studies{
     padding: 50px; 
@@ -128,7 +128,7 @@ ul{
     width: 100%;
 }
 
-/* Black Girls Code case study */
+/* Homepage - Black Girls Code case study */
 .bgc-case{
     grid-area: bgc-case; 
 }
@@ -147,7 +147,7 @@ ul{
 
 }
 
-/* Mentor Match case study */
+/* Home page - Mentor Match case study */
 .mentor-match-image{
     height: auto;
     width: 100%;
@@ -174,7 +174,7 @@ h3{
     line-height: 30px;
 }
 
-/* View case study button */
+/* Home page - View case study button */
 
 .view-the-case-study{
     background-color:#FFF;
@@ -192,7 +192,7 @@ h3{
     text-decoration-line: underline;
 }
 
-/* About Me Page*/
+/* About Me Page */
 
 .flex-container{
     padding: 50px; 
@@ -202,7 +202,7 @@ h3{
     align-items: flex-start; 
 }
 
-/* About me header and hero image area */
+/* About me page - header and hero image area */
 
 .a-bit-about-me{
     font-size: 60px; 
@@ -218,7 +218,7 @@ h3{
    margin: 0px 0 0 125px;
 }
 
-/* About me main content area */
+/* About me page - main content area */
 
 .about-me-body-text{
     margin-left: 50px; 
@@ -287,6 +287,140 @@ h3{
 
 #talk-soon-confirmation{
     display: none; 
+}
+
+/* Flock case study page */
+
+.flock-case-study-body{
+    padding: 60px; 
+}
+
+.flock-image{
+    width: 20%; 
+    height: auto; 
+    margin-left: 60px; 
+    margin-right: 20px;
+}
+
+.flock-page-overview{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+
+.flock-overview-text{
+    margin-left: 35px;
+}
+
+#flock-case-study-title1{
+    font-family: 'playfair display'; 
+    font-size: 60px; 
+    margin-bottom: 5px;
+    font-weight: 250px; 
+}
+
+#flock-case-study-title2{
+    font-family: 'playfair display'; 
+    font-size: 25px; 
+    font-weight: 300;
+    margin-top: 8px; 
+} 
+
+.flock-header-text{
+    font-family:'Work Sans', sans-serif; 
+
+}
+
+.subheading-beneath-process-stage{
+    font-family:'Work Sans', sans-serif; 
+    font-size: 20px;
+    font-weight: 400;  
+
+}
+
+#flock-case-study-main-content{
+    padding: 60px;
+    padding-right: 100px;
+}
+
+.flock-body-p{
+    font-family:'Work Sans', sans-serif; 
+}
+
+.my-process-img{
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.flock-body-images{
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#rachel-persona{
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#how-might-we-img{
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#storyboard-img-flock{
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#journey-map-img-flock{
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#user-testing-img{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.usability-users-preferences{
+    font-family:'Work Sans', sans-serif; 
+    text-decoration: underline; 
+}
+.flock-usability-list{
+    font-family:'Work Sans', sans-serif; 
+}
+
+#flock-case-study-large-image{
+    margin-top: 2%;
+    height: auto; 
+    width: 70%; 
+}
+
+#flock-mock-up-img{
+    margin-top: 10%; 
+    height: auto; 
+    width: 80%; 
 }
 /* Footer bird area */
 
